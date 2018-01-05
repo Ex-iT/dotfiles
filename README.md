@@ -1,2 +1,3 @@
 # dotfiles
-Collection of dotfiles and settings
+
+Personal collection of dotfiles and settings.
