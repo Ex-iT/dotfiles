@@ -8,5 +8,6 @@
     "workbench.startupEditor": "newUntitledFile",
     "editor.snippetSuggestions": "top",
     "editor.insertSpaces": false,
-    "vsicons.dontShowNewVersionMessage": true
+    "vsicons.dontShowNewVersionMessage": true,
+    "git.autofetch": true
   }
