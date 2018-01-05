@@ -1,0 +1,2 @@
+# `ls` upgrade
+alias dir="ls -alhFG"
