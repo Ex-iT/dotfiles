@@ -1,0 +1,12 @@
+{
+    "editor.renderWhitespace": "all",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Dracula",
+    "editor.fontSize": 14,
+    "window.zoomLevel": 1,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.snippetSuggestions": "top",
+    "editor.insertSpaces": false,
+    "vsicons.dontShowNewVersionMessage": true
+  }
