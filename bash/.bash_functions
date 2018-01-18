@@ -3,7 +3,7 @@ function ip() {
     if=${1:-en0}
     ip=$(ipconfig getifaddr $if)
     router=$(ipconfig getoption $if router)
-    mac=$(ifconfig $if | awk '/ether/{print $2}')
+    mac=$(ifconfig $if | awk '/ether/{print $2; exit}')
 
     echo -e "IP:\t$ip"
     echo -e "Router:\t$router"
