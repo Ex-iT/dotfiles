@@ -11,5 +11,3 @@ function ip() {
     
     return
 }
-
-unset ip
