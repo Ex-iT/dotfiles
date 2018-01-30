@@ -8,7 +8,6 @@
     "workbench.startupEditor": "newUntitledFile",
     "editor.snippetSuggestions": "top",
     "editor.insertSpaces": false,
-    "vsicons.dontShowNewVersionMessage": true,
     "git.autofetch": true,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
