@@ -1,26 +1,47 @@
 {
     "editor.renderWhitespace": "all",
-    "workbench.iconTheme": "vscode-icons",
     "workbench.editor.enablePreview": false,
-    "workbench.colorTheme": "Dracula",
     "editor.fontSize": 14,
     "window.zoomLevel": 1.2,
     "workbench.startupEditor": "newUntitledFile",
     "editor.snippetSuggestions": "top",
     "git.autofetch": true,
+    "git.enableCommitSigning": true,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "diffEditor.ignoreTrimWhitespace": true,
-    "vsicons.projectDetection.autoReload": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     "scssFormatter.useTabs": true,
     "scssFormatter.tabWidth": 4,
     "scssFormatter.singleQuote": true,
-    "workbench.statusBar.feedback.visible": false,
-    "sftp.debug": true,
-    "sftp.printDebugLog": true,
-    "sftp.downloadWhenOpenInRemoteExplorer": true,
     "workbench.editor.tabCloseButton": "off",
     "editor.suggestSelection": "first",
     "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "html"
+    ],
+    "breadcrumbs.enabled": false,
+    "editor.renderControlCharacters": true,
+    "[typescript,typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "python.jediEnabled": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.colorTheme": "Dracula Soft"
 }
+
