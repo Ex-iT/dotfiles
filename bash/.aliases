@@ -1,2 +1,5 @@
+# Virtual Env
+alias va="source venv/bin/activate"
+
 # `ls` upgrade
 alias dir="ls -alhFG"
