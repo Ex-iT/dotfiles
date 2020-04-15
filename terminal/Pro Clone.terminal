@@ -28,7 +28,7 @@
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
 	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGkCwwVFlUkbnVsbNQNDg8QERIT
-	FFZOU1NpemVYTlNmRmxhZ3NWTlNOYW1lViRjbGFzcyNAMgAAAAAAABAQgAKAA18QFUpl
+	FFZOU1NpemVYTlNmRmxhZ3NWTlNOYW1lViRjbGFzcyNALAAAAAAAABAQgAKAA18QFUpl
 	dEJyYWluc01vbm8tUmVndWxhctIXGBkaWiRjbGFzc25hbWVYJGNsYXNzZXNWTlNGb250
 	ohkbWE5TT2JqZWN0CBEaJCkyN0lMUVNYXmdud36FjpCSlKyxvMXMzwAAAAAAAAEBAAAA
 	AAAAABwAAAAAAAAAAAAAAAAAAADY
@@ -69,8 +69,12 @@
 	</data>
 	<key>UseBoldFonts</key>
 	<false/>
+	<key>columnCount</key>
+	<integer>100</integer>
 	<key>name</key>
 	<string>Pro Clone</string>
+	<key>rowCount</key>
+	<integer>30</integer>
 	<key>shellExitAction</key>
 	<integer>2</integer>
 	<key>type</key>
