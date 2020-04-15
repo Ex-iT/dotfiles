@@ -42,6 +42,6 @@
     },
     "python.jediEnabled": false,
     "vsicons.dontShowNewVersionMessage": true,
-    "workbench.colorTheme": "Dracula Soft"
+    "workbench.colorTheme": "Dracula"
 }
 
