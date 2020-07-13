@@ -12,6 +12,7 @@
   "editor.cursorBlinking": "smooth",
   "workbench.startupEditor": "newUntitledFile",
   "editor.snippetSuggestions": "top",
+  "update.showReleaseNotes": false,
   "git.autofetch": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
