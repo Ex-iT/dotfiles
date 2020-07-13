@@ -5,6 +5,7 @@
     "window.zoomLevel": 1.2,
     "workbench.startupEditor": "newUntitledFile",
     "editor.snippetSuggestions": "top",
+    "update.showReleaseNotes": false,
     "git.autofetch": true,
     "git.enableCommitSigning": true,
     "files.insertFinalNewline": true,
