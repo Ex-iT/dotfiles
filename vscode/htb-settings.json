@@ -8,7 +8,6 @@
   "editor.lineHeight": 20,
   "editor.letterSpacing": 0.5,
   "editor.fontLigatures": true,
-  "editor.formatOnPaste": true,
   "editor.cursorBlinking": "smooth",
   "workbench.startupEditor": "newUntitledFile",
   "editor.snippetSuggestions": "top",
