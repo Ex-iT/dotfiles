@@ -3,7 +3,7 @@ conky.config = {
   pad_percents = 3,
   background = false,
   double_buffer = true,
-  font = 'DejaVu Sans Mono:size=10',
+  font = 'Liberation Mono:size=10',
   use_xft = true,
   alignment = 'top_right',
   gap_x = 10,
@@ -13,9 +13,9 @@ conky.config = {
   own_window_type = 'normal',
   own_window_hints = 'undecorated,below,skip_taskbar,skip_pager,sticky',
   own_window = true,
-  update_interval = 3.0,
-  minimum_width = 390,
-  maximum_width = 390,
+  update_interval = 1.0,
+  minimum_width = 380,
+  maximum_width = 380,
 }
 
 conky.text = [[
@@ -23,16 +23,17 @@ conky.text = [[
     ${voffset 5}${color green}Hostname: ${color}${nodename}
     ${color green}Kernel:   ${color}${sysname} ${kernel} on ${machine}
     ${color green}Uptime:   ${color}${uptime}
+    ${color green}CPU:      ${color}${freq_g} GHz ${cpu cpu1}% ${cpubar cpu1}
+    ${color green}Memory:   ${color}${mem}/${memmax} ${memperc}% ${membar}
 
     ${font weight:bold}Network ${font}${hr 2}
     ${voffset 5}${color green}eth0:     ${goto 100}${color}${addr eth0}      ${if_up tun0}${goto 210}${color green}tun0:    ${goto 270}${color}${addr tun0}${endif}
     ${color green}Up:       ${goto 100}${color}${upspeed eth0}     ${if_up tun0}${goto 210}${color green}Up:    ${goto 270}${color}${upspeed tun0}${endif}
     ${color green}Down:     ${goto 100}${color}${downspeed eth0}   ${if_up tun0}${goto 210}${color green}Down:  ${goto 270}${color}${downspeed tun0}${endif}
 
-    ${font weight:bold}CPU ${font}${hr 2}
-    ${voffset 5}${color}${freq_g} GHz: ${cpu cpu1}% ${cpubar cpu1}
-    ${voffset 5}${color green}Name               PID    CPU%   MEM%
-    ${color lightgrey} ${top name 1} ${top pid 1} ${top cpu 1} ${top mem 1}
-    ${color lightgrey} ${top name 2} ${top pid 2} ${top cpu 2} ${top mem 2}
-    ${color lightgrey} ${top name 3} ${top pid 3} ${top cpu 3} ${top mem 3}
+    ${font weight:bold}Processes ${font}${hr 2}
+    ${voffset 5}${color green}Name               PID     CPU%   MEM%
+    ${color lightgrey}${top name 1} ${top pid 1} ${top cpu 1} ${top mem 1}
+    ${color lightgrey}${top name 2} ${top pid 2} ${top cpu 2} ${top mem 2}
+    ${color lightgrey}${top name 3} ${top pid 3} ${top cpu 3} ${top mem 3}
 ]]
