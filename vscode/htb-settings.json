@@ -13,6 +13,7 @@
   "editor.snippetSuggestions": "top",
   "update.showReleaseNotes": false,
   "git.autofetch": true,
+  "git.enableCommitSigning": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "diffEditor.ignoreTrimWhitespace": false,
