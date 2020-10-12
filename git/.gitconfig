@@ -7,11 +7,11 @@
 [commit]
 	gpgsign = true
 [core]
-	editor = code
+	editor = code -n --wait
 	pager =
 [diff]
 	tool = vscode
 [difftool "vscode"]
-	cmd = code --wait --diff $LOCAL $REMOTE
+	cmd = code -n --wait --diff $LOCAL $REMOTE
 [credential]
 	helper = osxkeychain
