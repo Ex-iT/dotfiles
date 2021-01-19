@@ -1,48 +1,59 @@
 {
-  "editor.renderWhitespace": "all",
-  "workbench.editor.enablePreview": false,
-  "editor.fontSize": 14,
-  "window.zoomLevel": 1.2,
-  "editor.fontFamily": "JetBrains Mono, Consolas, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontWeight": "300",
-  "editor.lineHeight": 20,
-  "editor.letterSpacing": 0.5,
-  "editor.fontLigatures": true,
-  "editor.cursorBlinking": "smooth",
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.snippetSuggestions": "top",
-  "update.showReleaseNotes": false,
-  "git.autofetch": true,
-  "git.enableCommitSigning": true,
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "scssFormatter.singleQuote": true,
-  "workbench.editor.tabCloseButton": "off",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "breadcrumbs.enabled": false,
-  "vsicons.projectDetection.autoReload": true,
-  "vsicons.dontShowNewVersionMessage": true,
-  "python.jediEnabled": false,
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "workbench.colorTheme": "Hack The Box",
-  "workbench.iconTheme": "material-icon-theme",
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
-  "spellright.language": [
-    "en",
-    "nl"
-  ],
-  "spellright.documentTypes": [
-    "markdown",
-    "latex",
-    "plaintext",
-    "html"
-  ]
-}
+    "editor.renderWhitespace": "all",
+    "workbench.editor.enablePreview": false,
+    "editor.fontSize": 14,
+    "window.zoomLevel": 1.2,
+    "editor.fontFamily": "JetBrains Mono, Consolas, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontWeight": "400",
+    "editor.lineHeight": 20,
+    "editor.letterSpacing": 0.5,
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "smooth",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.snippetSuggestions": "top",
+    "update.showReleaseNotes": false,
+    "git.autofetch": true,
+    "git.enableCommitSigning": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "scssFormatter.singleQuote": true,
+    "workbench.editor.tabCloseButton": "off",
+    "editor.suggestSelection": "first",
+    "breadcrumbs.enabled": false,
+    "vsicons.projectDetection.autoReload": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.colorTheme": "Hack The Box",
+    "workbench.iconTheme": "material-icon-theme",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "spellright.language": [
+      "en",
+      "nl"
+    ],
+    "spellright.documentTypes": [
+      "markdown",
+      "latex",
+      "plaintext",
+      "html"
+    ],
+    "vsicons.dontShowConfigManuallyChangedMessage": true,
+    "python.showStartPage": false,
+    "python.languageServer": "Microsoft",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "workbench.colorCustomizations": {
+      "selection.background": "#a4b1cd66",
+      "editor.selection.background": "#a4b1cd66",
+      "editor.findMatchBackground": "#b19f7a99",
+      "editor.findMatchHighlightBackground": "#ffcc5c33",
+      "editor.selectionHighlightBackground": "#6e7b9633",
+      "activityBar.foreground": "#c5f467"
+    },
+    "tabnine.experimentalAutoImports": true
+  }
